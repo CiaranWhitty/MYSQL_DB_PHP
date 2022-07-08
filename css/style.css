@@ -1,0 +1,17 @@
+body {
+  text-align: -webkit-center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+header button {
+  padding: 10px;
+  margin: 5px;
+}
