@@ -75,6 +75,11 @@
             <button type="submit">
               Retrieve Data
             </button>
+          </form>
+          <form action="/dev/TestDB/6DeleteData.php"> 
+            <button type="submit">
+              Delete Data
+            </button>
           </form>        
         </header>
         <hr />

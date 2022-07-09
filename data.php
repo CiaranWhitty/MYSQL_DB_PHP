@@ -1,3 +1,3 @@
 <?php
-  include_once "./6RetrieveTableData.php";
+  include_once "./RetrieveTableData.php";
 ?>
