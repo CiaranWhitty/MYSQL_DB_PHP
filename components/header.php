@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-	<head>
+	
+  <head>
 		<title>DB Test</title>
 		<meta charset="utf-8" />
 		<link 
@@ -14,6 +14,8 @@
 
 	<body>
     <h1>MySQL Database With PHP</h1>
+    <hr />
+    <h2><?php include_once "includes/ConnectToDb.php" ?></h2>
     <nav>
       <hr />
       <!-- Page -->
@@ -25,31 +27,48 @@
       <hr />
       <!-- Set Up Database -->
       <header>
-        <button>
-          <a href="/dev/TestDB/db/1TestConnect.php">Test Connect</a>
-        </button>
-        <button>
-          <a href="/dev/TestDB/db/3CreateDatabase.php">Create Database</a>
-        </button>
-        <button>
-          <a href="/dev/TestDB/db/2TestDatabase.php">Test Database</a>
-        </button>
+        <form action="/dev/TestDB/2CreateDatabase.php"> 
+          <button type="submit">
+            Create Database
+          </button>
+        </form>
+        <form action="/dev/TestDB/3TestDatabase.php"> 
+          <button type="submit">
+              Test Database
+          </button>
+        </form>
       </header>
       <hr />
-      <!-- Database Functions -->
+      <!-- Set Up Tables -->
       <header>
-        <button>
-          <a href="/dev/TestDB/db/4CreateTable.php">Create Table</a>
-        </button>
-        <button>
-          <a href="/dev/TestDB/db/5InsertDatabase.php">Insert Database</a>
-        </button>
-        <button>
-          <a href="/dev/TestDB/db/6RetrieveDatabase.php">Retrieve Database</a>
-        </button>
-        <button>
-          <a href="/dev/TestDB/db/7RetrieveTableDatabase.php">Retrieve Table Database</a>
-        </button>
+        <form action="/dev/TestDB/4CreateTable.php"> 
+          <button type="submit">
+            Create Table
+          </button>
+        </form>
+      </header>
+      <hr />
+      <!-- Database CRUD -->
+      <header>
+        <form action="/dev/TestDB/5InsertData.php"> 
+          <button type="submit">
+            Insert Data
+          </button>
+        </form>
+        <form action="/dev/TestDB/6RetrieveData.php"> 
+          <button type="submit">
+            Retrieve Data
+          </button>
+        </form>        
+      </header>
+      <hr />
+      <!-- Data View -->
+      <header>
+        <form action="/dev/TestDB/7RetrieveTableData.php"> 
+          <button type="submit">
+            Retrieve Table Of Data
+          </button>
+        </form>
       </header>
       <hr />
     </nav>
