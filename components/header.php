@@ -27,35 +27,50 @@
       <hr />
       <!-- Set Up Database -->
       <header>
-        <form action="/dev/TestDB/2CreateDatabase.php"> 
+        <form action="/dev/TestDB/2aCreateDatabase.php"> 
           <button type="submit">
             Create Database
           </button>
         </form>
-        <form action="/dev/TestDB/3TestDatabase.php"> 
+        <form action="/dev/TestDB/2bTestDatabase.php"> 
           <button type="submit">
               Test Database
+          </button>
+        </form>
+        <form action="/dev/TestDB/2cDropDatabase.php"> 
+          <button type="submit">
+            Drop Database
           </button>
         </form>
       </header>
       <hr />
       <!-- Set Up Tables -->
       <header>
-        <form action="/dev/TestDB/4CreateTable.php"> 
+        <form action="/dev/TestDB/3aCreateTable.php"> 
           <button type="submit">
             Create Table
+          </button>
+        </form>
+        <form action="/dev/TestDB/3bTestTable.php"> 
+          <button type="submit">
+            Test Table
+          </button>
+        </form>
+        <form action="/dev/TestDB/3cDropTable.php"> 
+          <button type="submit">
+            Drop Table
           </button>
         </form>
       </header>
       <hr />
       <!-- Database CRUD -->
       <header>
-        <form action="/dev/TestDB/5InsertData.php"> 
+        <form action="/dev/TestDB/4InsertData.php"> 
           <button type="submit">
             Insert Data
           </button>
         </form>
-        <form action="/dev/TestDB/6RetrieveData.php"> 
+        <form action="/dev/TestDB/5RetrieveData.php"> 
           <button type="submit">
             Retrieve Data
           </button>
@@ -64,7 +79,7 @@
       <hr />
       <!-- Data View -->
       <header>
-        <form action="/dev/TestDB/7RetrieveTableData.php"> 
+        <form action="/dev/TestDB/6RetrieveTableData.php"> 
           <button type="submit">
             Retrieve Table Of Data
           </button>
