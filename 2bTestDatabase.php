@@ -7,3 +7,7 @@
 	  or die("ERROR: Connection With Database. " . mysqli_connect_error());
     echo "Connected to MySQL Database<br/>";
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>

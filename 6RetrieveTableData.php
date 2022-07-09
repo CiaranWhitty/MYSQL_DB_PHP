@@ -25,3 +25,7 @@
 	
 	echo "</table>";
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>

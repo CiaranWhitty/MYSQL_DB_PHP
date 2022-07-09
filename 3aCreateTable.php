@@ -17,3 +17,7 @@
     or die("ERROR: Creating Table. " . mysqli_connect_error());
     echo "Table Created";
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>

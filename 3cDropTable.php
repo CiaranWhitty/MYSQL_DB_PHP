@@ -12,3 +12,7 @@
     or die("ERROR: Deleting Table. " . mysqli_connect_error());
     echo "Table Deleted";
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>

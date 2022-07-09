@@ -8,3 +8,7 @@
     or die("ERROR: Deleting Database. " . mysqli_connect_error());
     echo "Database Deleted";
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>

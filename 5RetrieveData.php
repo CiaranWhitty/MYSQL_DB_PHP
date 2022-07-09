@@ -18,3 +18,7 @@
   echo "Name: ".$row['name'];
   echo " Age: ".$row['age'];
 ?>
+
+<?php
+include_once "./components/footer.php";
+?>
