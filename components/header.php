@@ -21,8 +21,11 @@
         <hr />
         <!-- Page -->
         <header>
-          <button>
+        <button>
             <a href="/dev/TestDB">Home</a>
+          </button>          
+          <button>
+            <a href="/dev/TestDB/data.php">View Data</a>
           </button>
         </header>
         <hr />
